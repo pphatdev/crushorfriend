@@ -1,0 +1,14 @@
+<%
+function greet(inputStr) {
+    let message = "You have a friend!";
+
+    if (inputStr === "crush") {
+        message = "You have a crush!";
+    }
+
+    return message;
+}
+%>
+
+<!-- crush, friend -->
+<%= greet("crush") %>
